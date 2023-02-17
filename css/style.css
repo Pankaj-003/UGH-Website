@@ -51,7 +51,7 @@ ul {
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: rgb(83, 127, 231);
+  background-color: rgb(133, 205, 253);
   height: 2px;
   box-sizing: border-box;
   width: 50px;
@@ -261,13 +261,13 @@ ul {
 
 .logo-details h1 {
   font-size: 30px;
-  color: rgb(195, 193, 193);
+  color: rgb(130, 128, 128);
   margin-top: 10px;
   margin-left: 5px;
 }
 
 .logo-details p {
-  color: rgb(178, 176, 176);
+  color: rgb(107, 106, 106);
   margin-left: 5px;
   font-size: 20px;
 }
