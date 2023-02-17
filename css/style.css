@@ -113,7 +113,7 @@ ul {
 /* menubar start*/
 #navbar {
 
-  background-color:rgb(24, 24, 35);
+  background-color:rgb(24, 2, 84);
   justify-content: center;
 
 
@@ -180,6 +180,7 @@ ul {
   font-size: 24px;
   cursor: pointer;
   /* color: rgb(166, 26, 26); */
+  /* background-color: #ADD6FA; */
   border-radius: 5px;
   position: absolute;
   right: 0;
@@ -222,6 +223,7 @@ ul {
   #navbar li {
     display: flex;
     flex-direction: column;
+  
   }
 
   #navbar ul {
@@ -229,13 +231,16 @@ ul {
     /* overflow: hidden; */
     margin-top: 520px;
     /* margin-left: 66px; */
-    background-color: rgb(186, 184, 184);
+    background-color: #bddcf8;
+    
     z-index: 9;
     width: 280px;
     /* width: 100%; */
  
   }
-
+  #navbar ul li a{
+    color: #000;
+  }
 
 }
 
@@ -261,13 +266,13 @@ ul {
 
 .logo-details h1 {
   font-size: 30px;
-  color: rgb(130, 128, 128);
+  color: rgb(0, 0, 0);
   margin-top: 10px;
   margin-left: 5px;
 }
 
 .logo-details p {
-  color: rgb(107, 106, 106);
+  color: rgb(53, 48, 48);
   margin-left: 5px;
   font-size: 20px;
 }
@@ -291,15 +296,15 @@ ul {
   float: right;
   margin-right: 50px;
   padding: 10px 20px;
-  color: #993333;
-  background-color: rgb(0, 255, 246);
+  color: black;
+  background-color: #b5ccff;
   border: none;
   border-radius: 5px;
   margin-top: 30px;
   cursor: pointer;
   /* box-shadow: 10px 10px 10px black;
   transform: translate(2px,2px); */
-  box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #0f037a;
   transition: box-shadow 0.5s;
 }
 
@@ -307,13 +312,13 @@ ul {
   float: right;
   margin-right: 10px;
   padding: 10px 20px;
-  color: #993333;
-  background-color: rgb(0, 255, 246);
+  color: black;
+  background-color: #b5ccff;
   border: none;
   border-radius: 5px;
   margin-top: 30px;
   cursor: pointer;
-  box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #0f037a;
   transition: box-shadow 0.5s;
 
 }
@@ -328,31 +333,31 @@ ul {
 }
 #btn3 {
   padding: 10px 20px;
-  color: #993333;
-  background-color: rgb(0, 255, 246);
+  color: black;
+  background-color: #b5ccff;
   border: none;
   border-radius: 5px;
   margin-top: 75px;
   cursor: pointer;
-  box-shadow: 0 0 10px #333;
+  box-shadow: 0 0 10px #0f037a;
   transition: box-shadow 0.5s;
 
 }
 
 #span1 {
   font-size: 18px;
-  color: rgb(56, 56, 56);
+  color: #141415;
   /* margin-top: 40px; */
 }
 
 #span2 {
   font-size: 18px;
-  color: rgb(56, 56, 56);
+  color: #100f12;
   margin-left: 20px;
 }
 
 .collage-logo i {
-  color: rgb(0, 255, 246);
+  color: #0f037a;
 }
 
 .img-logo img {
@@ -396,7 +401,7 @@ ul {
   }
 
   .logo-details h1 {
-
+  color: #8cc9ff;
     font-size: 14px;
     margin: 0;
     margin-left: 2px;
@@ -405,7 +410,7 @@ ul {
 
 
   .logo-details p {
-
+    color: #ADD6FA;
     font-size: 10px;
     margin: 0;
     margin-left: 2px;
@@ -498,7 +503,7 @@ ul {
 
 /* Text sliding animation start*/
 .marquee {
-  background-color: rgb(0, 255, 246);
+  background-color: #ADD6FA;
   color: rgb(24, 24, 35);
 }
 
@@ -575,7 +580,7 @@ ul {
 }
 
 .notice-header {
-  background-color: rgb(0, 231, 255);
+  background-color: rgb(24, 2, 84);
   text-align: center;
   padding: 10px;
   border-top-left-radius: 5px;
@@ -584,7 +589,7 @@ ul {
 
 .notice-header h3 {
   margin: 0;
-  color: rgb(91, 90, 90);
+  color: rgb(168, 194, 255);
 }
 
 .notice-body {
@@ -650,7 +655,7 @@ ul {
   font-size: 36px;
   font-weight: bold;
   margin-bottom: 20px;
-  color: rgb(0, 231, 255);
+  color: rgb(24, 2, 84);
 }
 
 .section-content {
@@ -676,7 +681,7 @@ ul {
 }
 
 .read-more-button {
-  background-color: rgb(0, 158, 255);
+  background-color: #78a3ff;
   color: #feefd3;
   border: none;
   border-radius: 4px;
@@ -811,12 +816,12 @@ ul {
   resize: vertical;
 }
 .map-section iframe {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   height: 300px;
 }
 
 .form-submit-button {
-  background-color: rgb(0, 158, 255);
+  background-color: #78a3ff;
   color: #feefd3;
   border: none;
   border-radius: 4px;
