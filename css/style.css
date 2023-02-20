@@ -1221,6 +1221,37 @@ position: relative;
     font-size: 21px;
   }
 }
+.all-students-performance-section {
+  margin-top: 20px;
+  border: 1px solid red;
+  padding: 0px 30px;
+  margin-bottom: 50px;
+}
+
+.all-students-performance-section h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.all-students-performance-section table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.all-students-performance-section th {
+  background-color: #5697f9;
+  padding: 10px;
+  text-align: left;
+}
+
+.all-students-performance-section td {
+  /* border: 1px solid #ccc; */
+  padding: 10px;
+}
+
+.all-students-performance-section tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
 
 /* Administration section start */
 .administration-section {
