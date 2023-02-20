@@ -1192,7 +1192,20 @@ position: relative;
     padding: 5px;
 
   }
-
+ 
+  .all-students-performance-section table {
+    width: 10%;
+    /* background-color: red; */
+  }
+  .all-students-performance-section th {
+    width: 350px;
+    
+  }
+  .all-students-performance-section td {
+    font-size: 10px;
+    width: 350px;
+    /* background-color: rgb(176, 18, 173); */
+  }
   .section-title {
     font-size: 33px;
   }
@@ -1210,6 +1223,10 @@ position: relative;
   .stat-title {
     font-size: 20px;
   }
+  .all-students-performance-section {
+    padding: 0px;
+    /* background-color: #0f037a; */
+  }
 }
 
 @media(max-width:280px) {
@@ -1224,25 +1241,28 @@ position: relative;
 .all-students-performance-section {
   margin-top: 20px;
   /* border: 1px solid red; */
-  
-  padding: 0px 30px;
+
+  /* padding: 0px 30px; */
   margin-bottom: 50px;
 }
 
 .all-students-performance-section h2 {
   font-size: 24px;
   margin-bottom: 10px;
+  /* border: 1px solid rgb(30, 1, 224); */
 }
 
 .all-students-performance-section table {
   width: 100%;
   border-collapse: collapse;
+  /* border: 1px solid rgb(69, 208, 5); */
 }
 
 .all-students-performance-section th {
   background-color: #5697f9;
   padding: 10px;
   text-align: left;
+  /* border: 1px solid rgb(18, 18, 18); */
 }
 
 .all-students-performance-section td {
