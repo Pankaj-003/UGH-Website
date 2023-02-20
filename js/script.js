@@ -123,12 +123,3 @@ function slideshow(num) {
  
 // }
 // setTimeout("hideDiv()",8000)
-
-
-
-
-
-
-
-
-
