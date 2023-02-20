@@ -1204,28 +1204,12 @@ position: relative;
   .all-students-performance-section td {
     font-size: 10px;
     width: 350px;
-    /* background-color: rgb(176, 18, 173); */
+   
   }
-  .section-title {
-    font-size: 33px;
-  }
-
-  .stat-value {
-    font-size: 27px;
-  }
-
-  .performance-stats {
-
-    width: 90%;
-
-  }
-
-  .stat-title {
-    font-size: 20px;
-  }
+ 
   .all-students-performance-section {
     padding: 0px;
-    /* background-color: #0f037a; */
+   
   }
 }
 
@@ -1237,6 +1221,26 @@ position: relative;
   .stat-value {
     font-size: 21px;
   }
+  .all-students-performance-section table {
+   width: 250px;
+    /* background-color: red; */
+  }
+  .all-students-performance-section th {
+    width: 250px;
+    
+  }
+  .all-students-performance-section td {
+    font-size: 10px;
+    width: 250px;
+   
+  }
+ 
+  .all-students-performance-section {
+    padding: 0px;
+    width: 250px;
+   
+  }
+  
 }
 .all-students-performance-section {
   margin-top: 20px;
