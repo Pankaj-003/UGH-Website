@@ -47,7 +47,7 @@
 
   <nav id="navbar">
     <!-- <a href="#" class="brand">Brand</a> -->
-    <div class="navbar-menu">
+    <div class="navbar-menu" id="hibediv-menu">
       <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#">About US</a></li>
@@ -308,42 +308,7 @@
     </div>
   </footer>
   <!-- Footer section end -->
-  <script>
-    let flag = 0;
-    function controller(x) {
-      flag = flag + x;
-      slideshow(flag);
-    }
-
-    slideshow(flag);
-    function slideshow(num) {
-      let slides = document.getElementsByClassName('banner-slide');
-      if (num == slides.length) {
-        flag = 0;
-        num = 0;
-      }
-      if (num < 0) {
-        flag = slides.length - 1;
-        num = slides.length - 1;
-      }
-      for (let x of slides) {
-        x.style.display = "none";
-
-      }
-      slides[num].style.display = "block";
-
-    }
-    // toggle design
-    function toggleNavbar() {
-  var menu = document.querySelector(".navbar-menu");
-  if (menu.style.display === "flex") {
-    menu.style.display = "none";
-  } else {
-    menu.style.display = "flex";
-  }
-}
-
-  </script>
+  
   <script src="js/script.js"></script>
   <!-- <script src="js/swiper-bundle.min.js"></script> -->
 </body>

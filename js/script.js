@@ -71,6 +71,47 @@ carousel.addEventListener("touchmove", dragging);
 
 document.addEventListener("mouseup", dragStop);
 carousel.addEventListener("touchend", dragStop);
+// slider
+let flag = 0;
+function controller(x) {
+  flag = flag + x;
+  slideshow(flag);
+}
+
+slideshow(flag);
+function slideshow(num) {
+  let slides = document.getElementsByClassName('banner-slide');
+  if (num == slides.length) {
+    flag = 0;
+    num = 0;
+  }
+  if (num < 0) {
+    flag = slides.length - 1;
+    num = slides.length - 1;
+  }
+  for (let x of slides) {
+    x.style.display = "none";
+
+  }
+  slides[num].style.display = "block";
+
+}
+    // toggle design
+    function toggleNavbar() {
+        var menu = document.querySelector(".navbar-menu");
+        if (menu.style.display === "flex") {
+          menu.style.display = "none";
+        } else {
+          menu.style.display = "flex";
+        }
+      }
+// menu Visibility
+function hideDiv(){
+    let menuHide=document.getElementById('hibediv-menu');
+    menuHide.style.visibility="hidden";
+    // menuHide.style.transition="2s"
+}
+setTimeout("hideDiv()",8000)
 
 
 
