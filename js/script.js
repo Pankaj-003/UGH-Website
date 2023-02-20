@@ -97,21 +97,33 @@ function slideshow(num) {
 
 }
     // toggle design
+    var menu = document.querySelector(".navbar-menu");
     function toggleNavbar() {
-        var menu = document.querySelector(".navbar-menu");
+        
         if (menu.style.display === "flex") {
           menu.style.display = "none";
+         
         } else {
           menu.style.display = "flex";
+   
         }
       }
 // menu Visibility
-function hideDiv(){
-    let menuHide=document.getElementById('hibediv-menu');
-    menuHide.style.visibility="hidden";
-    // menuHide.style.transition="2s"
-}
-setTimeout("hideDiv()",8000)
+// flag=false;
+// function hideDiv(){
+//     if(flag==false){
+//         let menuHide=document.getElementById('hibediv-menu');
+//         menuHide.style.visibility="hidden";
+//         flag=true;
+//     }
+//     else{
+//         menuHide.style.visibility="visible";
+//     }
+  
+ 
+// }
+// setTimeout("hideDiv()",8000)
+
 
 
 

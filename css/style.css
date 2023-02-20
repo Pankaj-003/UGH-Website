@@ -171,9 +171,15 @@ top: 0;
   font-weight: 10;
   font-family: sans-serif;
 }
+.navbar-menu li a {
+  /* background-color: red; */
+  color: white;
+}
 
 #navbar li a:hover {
-  color:rgb(0, 231, 255);
+  color:rgb(12, 4, 255);
+  /* color: #000;
+  color: white; */
 }
 
 
@@ -194,8 +200,24 @@ top: 0;
 .navbar-menu {
   display: flex;
   justify-content: center;
+  z-index: 111;
+position: relative;
+
+}
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
 }
 
+@keyframes fade {
+  from {
+      opacity: .4
+  }
+
+  to {
+      opacity: 4
+  }
+}
 .navbar-menu a {
   padding: 0 10px;
   font-size: 16px;
