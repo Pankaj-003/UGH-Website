@@ -1199,6 +1199,8 @@ position: relative;
   }
   .all-students-performance-section th {
     width: 350px;
+    font-size: 13px;
+    border: 1px solid red;
     
   }
   .all-students-performance-section td {
@@ -1215,7 +1217,7 @@ position: relative;
 
 @media(max-width:280px) {
   .stat-title {
-    font-size: 13px;
+    font-size: 10px;
   }
 
   .stat-value {
@@ -1223,10 +1225,11 @@ position: relative;
   }
   .all-students-performance-section table {
    width: 250px;
-    /* background-color: red; */
+   
   }
   .all-students-performance-section th {
     width: 250px;
+    font-size: 18px;
     
   }
   .all-students-performance-section td {
@@ -1246,7 +1249,7 @@ position: relative;
   margin-top: 20px;
   /* border: 1px solid red; */
 
-  /* padding: 0px 30px; */
+  padding: 0px 30px;
   margin-bottom: 50px;
 }
 
