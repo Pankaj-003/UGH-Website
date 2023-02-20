@@ -137,7 +137,7 @@ myButton.addEventListener("click", function() {
   // After 3 seconds (3000 milliseconds), hide the div again
   setTimeout(function() {
     myDiv.style.display = "none";
-  }, 3000);
+  }, 6000);
 });
 /* <button id="myButton">Show Div</button> toogle 
 <div id="myDiv" style="display:none;">This is my div.</div> main divmenu*/
