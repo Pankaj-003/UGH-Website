@@ -97,17 +97,7 @@ function slideshow(num) {
 
 }
     // toggle design
-    var menu = document.querySelector(".navbar-menu");
-    function toggleNavbar() {
-        
-        if (menu.style.display === "flex") {
-          menu.style.display = "none";
-         
-        } else {
-          menu.style.display = "flex";
-   
-        }
-      }
+
 // menu Visibility
 // flag=false;
 // function hideDiv(){
@@ -123,3 +113,31 @@ function slideshow(num) {
  
 // }
 // setTimeout("hideDiv()",8000)
+var menu = document.querySelector(".navbar-menu");
+function toggleNavbar() {
+    
+    if (menu.style.display === "flex") {
+      menu.style.display = "none";
+     
+    } else {
+      menu.style.display = "flex";
+
+    }
+  }
+// Get references to the button and the div
+
+
+var myButton = document.getElementById("myButton");
+var myDiv = document.getElementById("hibediv-menu");
+
+// When the button is clicked, show the div
+myButton.addEventListener("click", function() {
+  myDiv.style.display = "block";
+
+  // After 3 seconds (3000 milliseconds), hide the div again
+  setTimeout(function() {
+    myDiv.style.display = "none";
+  }, 3000);
+});
+/* <button id="myButton">Show Div</button> toogle 
+<div id="myDiv" style="display:none;">This is my div.</div> main divmenu*/
